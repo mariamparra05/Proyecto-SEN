@@ -1,0 +1,93 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "20-12-2023",
+            "dia": "miércoles",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/20/une-no-pronostica-afectaciones-al-servicio-por-capacidad-de-generacion-este-miercoles/amp/"
+        },
+           "estimacion": {
+            "horario": "diurno",
+            "disponibilidad": 2430,
+            "demanda_max": 1620,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2430,
+                "demanda": 1620,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 355,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "CTE Guiteras",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 791,
+                    "razon": "avería",
+                    "mw_afectados": 791
+                },
+                {
+                    "cantidad": 108,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 108
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de motores en generación distribuida pasados de horas de mantenimiento",
+                    "razon": "Incremento de disponibilidad",
+                    "cantidad_mw": 112
+                },
+                {
+                    "desc": "Seis motores de la patana de Melones",
+                    "razon": "Generación adicional",
+                    "cantidad_mw": 108
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": "No se afectó el servicio por déficit de capacidad en el día anterior"
+        },
+        "dia_anterior": {
+            "desc": "El servicio no fue afectado por déficit de capacidad de generación.",
+            "horas": 0,
+            "hora_rest": ""
+        }
+    }
+}

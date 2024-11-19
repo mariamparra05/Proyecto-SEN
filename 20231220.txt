@@ -1,0 +1,13 @@
+La disponibilidad del SEN a las 07:00 horas es de 2430 MW y la demanda 1620 MW con todo el SEN con servicio, no se estima afectación en el horario del día.
+
+Se encuentran fuera de servicio por avería la unidad 6 de la CTE Rente y la unidad 2 de la CTE Felton. Se encuentra en mantenimiento la unidad 5 de la CTE Mariel y la CTE Guiteras.
+
+Se mantienen las limitaciones en la generación térmica (355 MW).
+
+En la generación distribuida, están indisponibles por avería 791 MW y en mantenimiento 108 MW.
+
+Para el horario pico se estima la entrada de 112 MW en motores de Generación Distribuida que están pasados de horas de mantenimiento y la entrada de 6 motores de la Patana de Melones con 108 MW.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2650 MW y una demanda máxima de 2580 MW, para una reserva de 70 MW, por lo que de mantenerse las condiciones previstas no se pronostican afectaciones al servicio en este horario.
+
+En el día de ayer no se afectó el servicio por déficit de capacidad de generación.

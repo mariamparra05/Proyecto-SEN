@@ -1,0 +1,89 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "25-12-2023",
+            "dia": "lunes",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/25/la-union-electrica-no-pronostica-afectaciones-al-servicio-por-deficit-de-capacidades-de-generacion-este-lunes/amp/"
+        },
+        "estimacion": {
+            "horario": "diurno",
+            "disponibilidad": 2680,
+            "demanda_max": 1620,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2680,
+                "demanda": 1620,
+                "totalidad": true
+            },
+            "mediodía": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 394,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 774,
+                    "razon": "avería",
+                    "mw_afectados": 774
+                },
+                {
+                    "cantidad": 104,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 104
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de motores en la Patana de Melones",
+                    "razon": "Generación adicional",
+                    "cantidad_mw": 64
+                },
+                {
+                    "desc": "Entrada de motores de generación distribuida en mantenimiento",
+                    "razon": "Incremento de disponibilidad",
+                    "cantidad_mw": 112
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": "No se afectó el servicio por déficit de capacidad en el día anterior"
+        },
+        "dia_anterior": {
+            "desc": "El servicio no fue afectado por déficit de capacidad de generación.",
+            "horas": 0,
+            "hora_rest": ""
+        }
+    }
+}
