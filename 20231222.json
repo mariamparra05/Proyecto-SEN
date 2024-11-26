@@ -1,0 +1,56 @@
+{
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "20231222",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/22/une-no-pronostica-afectaciones-durante-el-pico-nocturno-de-este-viernes/amp/", 
+    "prediction": {
+        "availability": 2718,  
+        "demand_max": 2550,
+        "impact": null,
+        "deficit": 0,
+        "backup": 168
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2545, 
+        "demand": 1600, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "id": "Santa Cruz",
+            "broken": ["Unit 1"],
+            "maintenance": [],
+            "limitation": "383 MW in thermal generation"
+        },
+        {
+            "id": "Rente",
+            "broken": ["Unit 6"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Mariel",
+            "broken": [],
+            "maintenance": ["Unit 5"],
+            "limitation": ""
+        }
+    ],
+    "distributed": {
+        "motors_with_problems": 793,
+        "total_impact": 111,
+        "combustible_problem": "Yes",
+        "snips_with_problems": "Not specified",
+        "motors_impact": 112
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

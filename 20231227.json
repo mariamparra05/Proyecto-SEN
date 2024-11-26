@@ -1,0 +1,50 @@
+{
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "20231227",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/27/une-no-pronostica-afectaciones-al-servicio-por-deficit-de-generacion-este-miercoles/amp/", 
+    "prediction": {
+        "availability": 2927,  
+        "demand_max": 2680,
+        "impact": null,
+        "deficit": 0,
+        "backup": 247
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2625, 
+        "demand": 1720, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": []
+        },
+        {
+            "id": "Nuevitas",
+            "broken": ["Unit 5"],
+            "maintenance": []
+        },
+        {
+            "id": "Mariel",
+            "broken": [],
+            "maintenance": ["Unit 5"]
+        }
+    ],
+    "thermal_generation": {
+        "limitations": 384
+    },
+    "distributed": {
+        "motors_with_problems": 753,
+        "total_impact": 106,
+        "combustible_problem": "Yes",
+        "snips_with_problems": "Not specified",
+        "motors_impact": "362 MW expected during peak hours (60 MW from Melones, 52 MW from Mariel Unit 8, 80 MW from Nuevitas Unit 5, 110 MW from over-maintenance motors)"
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

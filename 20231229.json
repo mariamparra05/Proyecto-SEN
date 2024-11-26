@@ -1,0 +1,60 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20231229",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/29/une-no-pronostica-afectaciones-al-servicio-por-deficit-de-generacion-este-viernes/amp/",
+    "prediction": {
+        "availability": 2816,
+        "demand_max": 2550,
+        "impact": null,
+        "deficit": 0,
+        "backup": 266
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2570,
+        "demand": 1580,
+        "deficit": 0
+    },
+    "plants": [
+        {
+            "id": "Santa Cruz",
+            "broken": ["Unit 1"],
+            "maintenance": []
+        },
+        {
+            "id": "Nuevitas",
+            "broken": ["Unit 5"],
+            "maintenance": []
+        },
+        {
+            "id": "Rente",
+            "broken": ["Unit 6"],
+            "maintenance": []
+        },
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": []
+        },
+        {
+            "id": "Melones",
+            "broken": [],
+            "maintenance": []
+        }
+    ],
+    "thermal_generation": {
+        "limitations": 525
+    },
+    "distributed": {
+        "motors_with_problems": 751,
+        "total_impact": 99,
+        "combustible_problem": "Yes",
+        "snips_with_problems": null,
+        "motors_impact": "246 MW expected during peak hours (116 MW from over-maintenance motors, 60 MW from Melones, 70 MW from Rente)"
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

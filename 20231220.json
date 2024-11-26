@@ -1,0 +1,56 @@
+{
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "20231220",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/20/une-no-pronostica-afectaciones-al-servicio-por-capacidad-de-generacion-este-miercoles/amp/",
+    "prediction": {
+        "availability": 2650,  
+        "demand_max": 2580,
+        "impact": null,
+        "deficit": 0,
+        "backup": 70
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2430, 
+        "demand": 1620, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "id": "Rente",
+            "broken": ["Unit 6"],
+            "maintenance": [],
+            "limitation": "355 MW in thermal generation"
+        },
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Mariel",
+            "broken": [],
+            "maintenance": ["Unit 5"],
+            "limitation": ""
+        },
+        {
+            "id": "Guiteras",
+            "broken": [],
+            "maintenance": ["Unit under maintenance"],
+            "limitation": ""
+        }
+    ],
+    "distributed": {
+        "motors_with_problems": 791,
+        "total_impact": 108,
+        "combustible_problem": "Yes",
+        "snips_with_problems": "Not specified",
+        "motors_impact": 112
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

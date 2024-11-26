@@ -1,0 +1,56 @@
+{
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "20231223",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/23/une-preve-una-jornada-sin-afectaciones-por-deficit-de-generacion-este-sabado/amp/", 
+    "prediction": {
+        "availability": 2761,  
+        "demand_max": 2550,
+        "impact": null,
+        "deficit": 0,
+        "backup": 211
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2516, 
+        "demand": 1550, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "id": "Nuevitas",
+            "broken": ["Unit 5", "Unit 6"],
+            "maintenance": [],
+            "limitation": "346 MW in thermal generation"
+        },
+        {
+            "id": "Rente",
+            "broken": ["Unit 6"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Mariel",
+            "broken": [],
+            "maintenance": ["Unit 5"],
+            "limitation": ""
+        }
+    ],
+    "distributed": {
+        "motors_with_problems": 765,
+        "total_impact": 106,
+        "combustible_problem": "Yes",
+        "snips_with_problems": "Not specified",
+        "motors_impact": 115
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

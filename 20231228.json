@@ -1,0 +1,50 @@
+{
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "20231228",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/28/une-no-pronostica-afectaciones-durante-el-pico-nocturno-de-este-jueves/amp/", 
+    "prediction": {
+        "availability": 2926,  
+        "demand_max": 2650,
+        "impact": null,
+        "deficit": 0,
+        "backup": 276
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2750, 
+        "demand": 1780, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": []
+        },
+        {
+            "id": "Santa Cruz",
+            "broken": ["Unit 3"],
+            "maintenance": []
+        },
+        {
+            "id": "Mariel",
+            "broken": [],
+            "maintenance": ["Unit 5"]
+        }
+    ],
+    "thermal_generation": {
+        "limitations": 485
+    },
+    "distributed": {
+        "motors_with_problems": 752,
+        "total_impact": 99,
+        "combustible_problem": "Yes",
+        "snips_with_problems": "Not specified",
+        "motors_impact": "176 MW expected during peak hours (60 MW from Melones, 116 MW from over-maintenance motors)"
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

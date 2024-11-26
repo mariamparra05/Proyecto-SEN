@@ -1,0 +1,55 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20231230",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/30/no-se-pronostican-afectaciones-al-servicio-electrico-por-deficit-de-capacidades-de-generacion/amp/",
+    "prediction": {
+        "availability": 2954,
+        "demand_max": 2500,
+        "impact": null,
+        "deficit": 0,
+        "backup": 454
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2720,
+        "demand": 1525,
+        "deficit": 0
+    },
+    "plants": [
+        {
+            "id": "Santa Cruz",
+            "broken": ["Unit 1"],
+            "maintenance": []
+        },
+        {
+            "id": "Mariel",
+            "broken": ["Unit 5"],
+            "maintenance": []
+        },
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": []
+        },
+        {
+            "id": "Melones",
+            "broken": [],
+            "maintenance": []
+        }
+    ],
+    "thermal_generation": {
+        "limitations": 393
+    },
+    "distributed": {
+        "motors_with_problems": 740,
+        "total_impact": 99,
+        "combustible_problem": "Yes",
+        "snips_with_problems": null,
+        "motors_impact": "234 MW expected during peak hours (114 MW from over-maintenance motors, 60 MW from Melones, 60 MW from Santa Cruz)"
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

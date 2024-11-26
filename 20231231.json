@@ -1,0 +1,45 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20231231",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/31/la-union-electrica-no-pronostica-afectaciones-al-servicio-por-deficit-de-generacion-este-31-de-diciembre/amp/",
+    "prediction": {
+        "availability": 2925,
+        "demand_max": 2460,
+        "impact": null,
+        "deficit": 0,
+        "backup": 465
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2750,
+        "demand": 1420,
+        "deficit": 0
+    },
+    "plants": [
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": []
+        },
+        {
+            "id": "Melones",
+            "broken": [],
+            "maintenance": []
+        }
+    ],
+    "thermal_generation": {
+        "limitations": 473
+    },
+    "distributed": {
+        "motors_with_problems": 742,
+        "total_impact": 99,
+        "combustible_problem": "Yes",
+        "snips_with_problems": null,
+        "motors_impact": "175 MW expected during peak hours (110 MW from over-maintenance motors, 65 MW from Melones)"
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "20231218",
+    "url": "http://www.cubadebate.cu/noticias/2023/12/18/une-no-preve-afectaciones-por-deficit-durante-jornada-diurna-y-riesgo-de-afectacion-en-el-pico-nocturno-este-lunes/amp/", 
+    "prediction": {
+        "availability": 2687,  
+        "demand_max": 2650,
+        "impact": "Low reserve risk during peak hours",
+        "deficit": 0,
+        "backup": 37
+    },
+    "morning_info": {
+        "time": "07:00", 
+        "availability": 2447, 
+        "demand": 1700, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "id": "Santa Cruz",
+            "broken": ["Unit 3"],
+            "maintenance": [],
+            "limitation": "368 MW in thermal generation"
+        },
+        {
+            "id": "10 de Octubre",
+            "broken": ["Unit 5"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Rente",
+            "broken": ["Units 3, 6"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Felton",
+            "broken": ["Unit 2"],
+            "maintenance": [],
+            "limitation": ""
+        },
+        {
+            "id": "Mariel",
+            "broken": [],
+            "maintenance": ["Unit 5"],
+            "limitation": ""
+        }
+    ],
+    "distributed": {
+        "motors_with_problems": "835 MW not available due to failure",
+        "total_impact": 107,
+        "combustible_problem": "Yes",
+        "snips_with_problems": "Not specified",
+        "motors_impact": 110
+    },
+    "impact": {
+        "total_hours": 0,
+        "max": 0,
+        "max_hour": 0
+    }
+}
