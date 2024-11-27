@@ -48,7 +48,7 @@
         }
     ],
     "distributed": {
-        "motors_with_problems": "835 MW ",
+        "motors_with_problems": 835 ,
         "total_impact": 107,
         "combustible_problem": "Yes",
         "snips_with_problems": "Not specified",
