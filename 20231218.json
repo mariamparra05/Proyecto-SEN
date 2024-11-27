@@ -10,7 +10,7 @@
         "backup": 37
     },
     "morning_info": {
-        "time": "07:00", 
+        "time": "0700", 
         "availability": 2447, 
         "demand": 1700, 
         "deficit": 0
@@ -48,7 +48,7 @@
         }
     ],
     "distributed": {
-        "motors_with_problems": "835 MW not available due to failure",
+        "motors_with_problems": "835 MW ",
         "total_impact": 107,
         "combustible_problem": "Yes",
         "snips_with_problems": "Not specified",
